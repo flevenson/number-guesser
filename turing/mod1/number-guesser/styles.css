@@ -1,0 +1,110 @@
+
+*{
+font-family: open sans, raleway;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #404041;
+  height: 10rem;
+
+}
+
+#main-text{
+  margin: auto;
+  width: 60rem;
+}
+
+h1{
+  color: #ED458B;
+  display: inline-block;
+  font-family: Open Sans, raleway, sans-serif;
+  font-size: 60pt;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 1.5rem;
+  padding-left: 10rem;
+}
+
+span{
+  color: #E6E7E8;
+  font-weight: 300;
+  height: 4rem;
+  width: 10rem;
+}
+
+main{
+  float: left;
+  margin-left: 35%;
+  margin-top: 4rem;
+  width: 500px;
+  /*display: inline-block;*/
+  /*margin: auto;*/
+}
+
+#guess-input{
+  display:block;
+  font-size: 2rem;
+  height: 3rem;
+  margin: auto;
+  width: 100%; 
+}
+
+p{
+  color: #404041;
+  font-size: 32pt;
+  font-family: ;
+  text-align: center;
+}
+
+/*header styles*/
+
+#last-guess{
+
+  color: #ED458B;
+  font-size: 72pt;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/*button styles*/
+
+button{
+  background-color: #929497;
+  border-radius: 2rem;
+  color: white;
+  height: 2rem;
+  font-family: open sans, raleway;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+button:hover{
+  background-color: #EB008B;
+}
+
+button:disabled{
+  /*pointer-events: none;*/
+  background-color: #D0D2D3;
+}
+
+.top-button{
+  margin: 1.25rem;
+  width: 40%;
+}
+
+.bottom-button{
+  width:100%;
+}
+
+/*aside{ 
+  float: left;
+  position: relative;
+  right: 70rem;
+}*/
